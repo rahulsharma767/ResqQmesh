@@ -1,0 +1,36 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Person 2 REAL / generated data
+person2_backend/data/raw/
+person2_backend/data/processed/
+person2_backend/data/simulation/
+
+# Large OSM / GIS files
+*.pbf
+*.osm
+*.geojson
+*.geojson.json
+
+# Python generated/cache files
+*.pkl
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
